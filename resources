@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Be Better - Resources</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Be <strong>Better.</strong></a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="mission.html">Mission Statement</a>
+						<a href="about.html">About Us</a>
+						<a href="resources.html">Resources</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>About Us</h2>
+						<p>Who we are</p>
+					</header>
+					
+					<p>In June 2020, multiple allegations of sexual assault and harassment against Woodgrove High School (WHS) graduates came to light. In response to this, four Woodgrove alumnae began discussing the ways in which their own experiences at the school echoed these allegations, which begged the question: were these indicents of sexual assault isolated, or symptomatic of a greater issue? These conversations formed the basis of BeBetterWHS. By late June, the group began surveying current and former Woodgrove students in order to gauge the prevalence of sexual violence at the school. After just ten days, BeBetterWHS received over 300 responses. These responses included detailed accounts of sexual assault and harassment—they were powerful, vulnerable, and profoundly disturbing. Moreover, the results of the survey revealed a pattern of violent and abusive behavior within the Woodgrove community.</p>
+					<p>BeBetterWoodgrove is committed to reforming the systems that allowed this pattern of sexual violence to persist without intervention. In order to transform these systems and establish a new precedent for justice at Woodgrove High School, BeBetterWHS calls for the school’s administration to listen to—and advocate for—its students. </p>
+					<p>As Woodgrove alumni, we demand that <strong>Woodgrove Be Better.</strong> We hope that you do, too.</p>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h3>Get in touch</h3>
+
+					<form action="#" method="post">
+
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+
+					<div class="copyright">
+						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
