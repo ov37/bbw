@@ -1864,6 +1864,63 @@ html {
 
 		}
 
+		section.nextwrapper, article.nextwrapper {
+		padding: 6em 0;
+	}
+
+		section.nextwrapper header, article.nextwrapper header {
+			margin-bottom: 4em;
+		}
+
+			section.nextwrapper header h2, article.nextwrapper header h2 {
+				font-size: 2.75em;
+				margin: 0 0 .5em 0;
+			}
+
+			section.nextwrapper header p, article.nextwrapper header p {
+				font-size: 1em;
+			}
+
+		section.nextwrapper article header, article.nextwrapper article header {
+			margin: 0;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			section.nextwrapper, article.nextwrapper {
+				padding: 4em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			section.nextwrapper, article.nextwrapper {
+				padding: 3em 0;
+			}
+
+				section.nextwrapper header, article.nextwrapper header {
+					margin-bottom: 2em;
+				}
+
+					section.nextwrapper header h2, article.nextwrapper header h2 {
+						font-size: 2em;
+					}
+
+					section.nextwrapper header p, article.nextwrapper header p {
+						font-size: .9em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			section.nextwrapper article, article.nextwrapper article {
+				text-align: center;
+			}
+
+		}
+
 	header p {
 		color: #bbb;
 		position: relative;
@@ -2054,6 +2111,39 @@ html {
 			display: none;
 		}
 
+	.select-nextwrapper {
+		text-decoration: none;
+		display: block;
+		position: relative;
+	}
+
+		.select-nextwrapper:before {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.select-nextwrapper:before {
+			color: #6cc091;
+			display: block;
+			height: 2.75em;
+			line-height: 2.75em;
+			pointer-events: none;
+			position: absolute;
+			right: 0;
+			text-align: center;
+			top: 0;
+			width: 2.75em;
+		}
+
+		.select-nextwrapper select::-ms-expand {
+			display: none;
+		}
+			
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
