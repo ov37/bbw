@@ -1769,9 +1769,18 @@ html {
 		margin: 0 auto;
 	}
 
+	.other {
+		max-width: 75em;
+		margin: 0 auto;
+		background-color: #6cc091;
+	}
+
 		@media screen and (max-width: 1280px) {
 
 			.inner {
+				max-width: 90%;
+			}
+			.other {
 				max-width: 90%;
 			}
 
@@ -1780,6 +1789,9 @@ html {
 		@media screen and (max-width: 480px) {
 
 			.inner {
+				max-width: 90%;
+			}
+			.other {
 				max-width: 90%;
 			}
 
@@ -2726,6 +2738,11 @@ html {
 			position: relative;
 		}
 
+		#header .other {
+			margin: 0 auto;
+			position: relative;
+		}
+
 		#header .logo {
 			color: #ffffff;
 			display: inline-block;
@@ -2947,6 +2964,13 @@ html {
 			padding-top: 8em;
 		}
 
+		#banner .other {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 8em;
+		}
+
 		#banner h1 {
 			font-size: 5.5em;
 			font-weight:400;
@@ -3028,6 +3052,10 @@ html {
 					padding-top: 6em;
 				}
 
+				#banner .other {
+					padding-top: 6em;
+				}
+
 				#banner h1 {
 					font-size: 3em;
 				}
@@ -3053,6 +3081,10 @@ html {
 					padding-top: 4em;
 				}
 
+				#banner .other {
+					padding-top: 4em;
+				}
+
 				#banner h1 {
 					font-size: 2.5em;
 				}
@@ -3075,6 +3107,10 @@ html {
 			}
 
 				#banner .inner {
+					padding-top: 3em;
+				}
+
+				#banner .other {
 					padding-top: 3em;
 				}
 
