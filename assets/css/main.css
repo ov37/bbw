@@ -1583,7 +1583,12 @@ html {
 
 	body {
 		/*background: #fff;*/
-		background: #eac246;
+		background: #e1f2e9;
+	}
+
+	bodynext {
+		/*background: #fff;*/
+		background: #8f87e7;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
