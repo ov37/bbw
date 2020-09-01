@@ -2139,6 +2139,7 @@ html {
 
 		.select-nextwrapper:before {
 			color: #34eb7d;
+			background: #6cc091;
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
