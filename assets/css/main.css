@@ -2106,7 +2106,7 @@ html {
 
 		.select-wrapper:before {
 			/*color: #fff; */
-			color: #F0F8F4;
+			color: #6cc091;
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
@@ -2140,7 +2140,6 @@ html {
 
 		.select-nextwrapper:before {
 			color: #34eb7d;
-			background: #6cc091;
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
