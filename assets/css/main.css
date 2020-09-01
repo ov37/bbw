@@ -1582,7 +1582,8 @@ html {
 	}
 
 	body {
-		background: #fff;
+		/*background: #fff;*/
+		background: #eac246;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2106,7 +2107,7 @@ html {
 
 		.select-wrapper:before {
 			/*color: #fff; */
-			color: #6cc091;
+			color: #ea4698;
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
